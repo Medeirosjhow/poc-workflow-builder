@@ -1,27 +1,102 @@
-# PocWorkflowBuilder
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
+# Workflow Builder POC
 
-## Development server
+Este repositório é uma Prova de Conceito (POC) para a implementação de um **Workflow Builder** utilizando **Angular**, **SCSS** e **Rete.js**.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+O objetivo deste projeto é criar um ambiente funcional que permita a construção e manipulação visual de workflows, com base em nós e conexões. A aplicação será modular e extensível, servindo como base para futuras integrações ou desenvolvimento de ferramentas mais complexas.
 
-## Code scaffolding
+---
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🚀 Tecnologias Utilizadas
 
-## Build
+- **Angular**: Framework para desenvolvimento de aplicações web modernas e dinâmicas.
+- **SCSS**: Pré-processador CSS utilizado para estilização avançada e modular.
+- **Rete.js**: Biblioteca JavaScript para construção de editores visuais baseados em nós e fluxos.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+---
 
-## Running unit tests
+## 🛠️ Funcionalidades Planejadas
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- **Criação Visual de Workflows**: 
+  - Permitir adicionar, editar e excluir nós e conexões de forma intuitiva.
+- **Design Modular**:
+  - Componentização clara para facilitar a reutilização de elementos.
+- **Estilização Personalizada**:
+  - Estilo customizável e responsivo utilizando **SCSS**.
+- **Base para Extensões**:
+  - Suporte para integração com regras e condições personalizadas.
 
-## Running end-to-end tests
+---
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## 📂 Estrutura do Projeto
 
-## Further help
+```
+src/
+├── app/
+│   ├── components/          # Componentes do Workflow Builder
+│   ├── services/            # Serviços para lógica de negócios
+│   ├── styles/              # Arquivos SCSS globais e variáveis
+│   └── app.module.ts        # Módulo principal da aplicação
+├── assets/                  # Arquivos estáticos
+├── environments/            # Configurações de ambiente
+└── main.ts                  # Ponto de entrada do Angular
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+---
+
+## 🖼️ Interface
+
+A interface do Workflow Builder permite:
+1. **Nós personalizados**: Criação de blocos (nós) com diferentes configurações.
+2. **Conexões interativas**: Arraste e solte para conectar ou remover nós.
+3. **Integração de temas**: Estilos personalizáveis utilizando SCSS.
+
+---
+
+## 📦 Instalação e Configuração
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/workflow-builder-poc.git
+   cd workflow-builder-poc
+   ```
+
+2. Instale as dependências:
+   ```bash
+   npm install
+   ```
+
+3. Inicie o servidor de desenvolvimento:
+   ```bash
+   ng serve
+   ```
+
+4. Acesse a aplicação em [http://localhost:4200](http://localhost:4200).
+
+---
+
+## 🛡️ Pré-requisitos
+
+- Node.js >= 16.x
+- Angular CLI >= 16.x
+- Navegador atualizado (recomendado: Chrome ou Edge)
+
+---
+
+## 📖 Próximos Passos
+
+- Implementar um sistema de armazenamento de workflows.
+- Adicionar validação de conexões e regras.
+- Documentação detalhada para desenvolvedores.
+
+---
+
+## 🤝 Contribuições
+
+Sinta-se à vontade para abrir **issues** ou enviar **pull requests**. Feedbacks e sugestões são bem-vindos!
+
+---
+
+## 📝 Licença
+
+Este projeto está sob a licença [MIT](LICENSE).
